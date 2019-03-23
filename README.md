@@ -48,11 +48,11 @@ suggestions based on their answers. (name coming soon)
 
 #### Key Objectives of Survey:
 ```
-+ Location
-+ Price Range
-+ Family Friendly or Not
-+ Weather / Terrain
-+ Transportation Method
+Location?
+Price Range?
+Family Friendly or Not?
+Weather / Terrain?
+Transportation Method?
 ```
 
 #### Survey Parameters: 
