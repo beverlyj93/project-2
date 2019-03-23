@@ -2,14 +2,14 @@
 # Vacation Finder
 
 | Team Member | Role |
-| ------ | ------ |
+| ------ | :-----------: |
 | Joshua Beverly | Back-End |
 | Gerson Cruz | Back-End |
 | Alex Curington | Front-End, Project Manager, Presentation |
 | Juan Delgado | Back-End / Front-End |
 
 ## Description:
-> Vacation Finder – users complete survey that generates vacation destination suggestions based on their answers
+*Vacation Finder* – users complete survey that generates vacation destination suggestions based on their answers
 ___
 
 ## Tasks:
@@ -49,10 +49,10 @@ ___
 ```
 
 #### Parameters of Survey:
-> coming soon
+*coming soon*
 
 #### APIs:
-> coming soon
+*coming soon*
 
 ___
 
