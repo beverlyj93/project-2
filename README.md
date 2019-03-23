@@ -1,12 +1,21 @@
 # Project II
 
-Team Members:
-+ Joshua Beverly
-+ Gerson Cruz
-+ Alex Curington
-+ Juan Delgado
+## Team Members:
++ Joshua Beverly: Back-End
++ Gerson Cruz: Back-End
++ Alex Curington: Front-End, Project Manager, Presentation
++ Juan Delgado: Back-End / Front-End
 
-Requirements:
+## Description:
+TBA
+
+## Sketch:
+TBA
+
+## APIs Used:
+TBA
+
+## Requirements:
 - [ ] Use a Node and Express Web Server
 - [ ] Be backed by a MySQL Database an ORM (not necessarily Sequelize)
 - [ ] Have both GET and POST routes for retrieving and adding new data
@@ -16,5 +25,9 @@ Requirements:
 - [ ] Have folder structure that meets MVC Paradigm
 - [ ] Meet good quality coding standards (indentation, scoping, naming)
 - [ ] Must not expose sensitive API key information on the server
+
+## Tasks:
+(see Projects tab)
+
 
 Due: Thursday 04 April 2019
