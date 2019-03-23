@@ -8,9 +8,12 @@
 | Alex Curington | Front-End, Project Manager, Presentation |
 | Juan Delgado | Back-End / Front-End |
 
+
+
 ## Description:
 *Vacation Finder* – users complete survey that generates vacation destination suggestions based on their answers
-___
+
+
 
 ## Tasks:
 - [ ] Sketch out UI of landing page and survey
@@ -48,13 +51,13 @@ ___
 + Transportation Method
 ```
 
-#### Parameters of Survey:
+#### Survey Parameters:
 *coming soon*
 
 #### APIs:
 *coming soon*
 
-___
+
 
 ## Project Requirements:
 - [ ] Use a Node and Express Web Server
