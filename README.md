@@ -1,5 +1,11 @@
 # Project II
 
+Team Members:
++ Joshua Beverly
++ Gerson Cruz
++ Alex Curington
++ Juan Delgado
+
 Requirements:
 - [ ] Use a Node and Express Web Server
 - [ ] Be backed by a MySQL Database an ORM (not necessarily Sequelize)
