@@ -1,8 +1,11 @@
 Project II | Due: Thursday 04 April 2019
 
 # *Vacation Finder*
+
+#### Description: 
 ```
-Description: Users will complete a survey that generates vacation destination suggestions based on their answers. (name coming soon)
+Users will complete a survey that generates vacation destination 
+suggestions based on their answers. (name coming soon)
 ```
 
 ---
@@ -52,9 +55,15 @@ Description: Users will complete a survey that generates vacation destination su
 + Transportation Method
 ```
 
-#### Survey Parameters: *coming soon*
+#### Survey Parameters: 
+```
+*coming soon*
+```
 
-#### APIs: *coming soon*
+#### APIs: 
+```
+*coming soon*
+```
 
 ---
 
