@@ -4,11 +4,12 @@ Project II | Due: Thursday 04 April 2019
 
 #### Description: 
 ```
-Users will complete a survey that generates vacation destination 
+Vacation Finder Web App: Users will complete a survey that generates vacation destination 
 suggestions based on their answers. (name coming soon)
 ```
 
 ---
+
 
 | Team Member | Role |
 | ------ | :-----------: |
@@ -17,7 +18,9 @@ suggestions based on their answers. (name coming soon)
 | Alex Curington | Front-End, Project Manager, Presentation |
 | Juan Delgado | Back-End / Front-End |
 
+
 ---
+
 
 ## Tasks:
 - [ ] Sketch out UI of landing page and survey
@@ -65,7 +68,9 @@ Transportation Method?
 *coming soon*
 ```
 
+
 ---
+
 
 ## Project Requirements:
 - [ ] Use a Node and Express Web Server
@@ -77,4 +82,6 @@ Transportation Method?
 - [ ] Have folder structure that meets MVC Paradigm
 - [ ] Meet good quality coding standards (indentation, scoping, naming)
 - [ ] Must not expose sensitive API key information on the server
+
+See additional project information in *Projects* tab on GitHub.
 
