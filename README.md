@@ -1,7 +1,7 @@
-# Project II | *Vacation Finder* 
-*(actual name coming soon)*
+# Project II 
+# *Vacation Finder*
 
-## Description: *Vacation Finder* – users complete survey that generates vacation destination suggestions based on their answers
+Description: *Vacation Finder* – users complete survey that generates vacation destination suggestions based on their answers – *(name coming soon)*
 
 
 | Team Member | Role |
