@@ -1,7 +1,9 @@
-# Project II 
+Project II | Due: Thursday 04 April 2019
 # *Vacation Finder*
 
-Description: *Vacation Finder* – users complete survey that generates vacation destination suggestions based on their answers – *(name coming soon)*
+```
+Description: *Vacation Finder* – users complete survey that generates vacation destination suggestions based on their answers (name coming soon)
+```
 
 
 | Team Member | Role |
@@ -69,4 +71,3 @@ Description: *Vacation Finder* – users complete survey that generates vacation
 - [ ] Meet good quality coding standards (indentation, scoping, naming)
 - [ ] Must not expose sensitive API key information on the server
 
-Due: Thursday 04 April 2019
