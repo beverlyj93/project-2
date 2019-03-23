@@ -1,16 +1,16 @@
 # Project II 
 # Vacation Finder
 
-## Team Members:
-```
-+ Joshua Beverly: Back-End
-+ Gerson Cruz: Back-End
-+ Alex Curington: Front-End, Project Manager, Presentation
-+ Juan Delgado: Back-End / Front-End
-```
+| Team Member | Role |
+| ------ | ------ |
+| Joshua Beverly | Back-End |
+| Gerson Cruz | Back-End |
+| Alex Curington | Front-End, Project Manager, Presentation |
+| Juan Delgado | Back-End / Front-End |
 
 ## Description:
 > Vacation Finder – users complete survey that generates vacation destination suggestions based on their answers
+___
 
 ## Tasks:
 - [ ] Sketch out UI of landing page and survey
@@ -24,7 +24,6 @@
 ```
 (Alex working on layout sketch)
 ```
-
 
 #### Survey Questions Outline:
 ```
@@ -50,12 +49,12 @@
 ```
 
 #### Parameters of Survey:
+> coming soon
 
 #### APIs:
 > coming soon
 
-–––––––––––––
-
+___
 
 ## Project Requirements:
 - [ ] Use a Node and Express Web Server
