@@ -2,17 +2,15 @@
 # Vacation Finder
 
 ## Team Members:
+```
 + Joshua Beverly: Back-End
 + Gerson Cruz: Back-End
 + Alex Curington: Front-End, Project Manager, Presentation
 + Juan Delgado: Back-End / Front-End
+```
 
 ## Description:
-Vacation Finder – users complete survey that generates vacation destination suggestions based on their answers
-
-
-–––––––––––––
-
+> Vacation Finder – users complete survey that generates vacation destination suggestions based on their answers
 
 ## Tasks:
 - [ ] Sketch out UI of landing page and survey
@@ -23,9 +21,13 @@ Vacation Finder – users complete survey that generates vacation destination su
 - [ ] Determine APIs to be used
 
 #### UI Sketch:
-(Alex)
+```
+(Alex working on layout sketch)
+```
+
 
 #### Survey Questions Outline:
+```
 1. (coming soon)
 2.
 3.
@@ -36,17 +38,21 @@ Vacation Finder – users complete survey that generates vacation destination su
 8.
 9.
 10.
+```
 
 #### Key Objectives of Survey:
+```
 + Location
 + Price Range
 + Family Friendly or Not
 + Weather / Terrain
 + Transportation Method
+```
+
+#### Parameters of Survey:
 
 #### APIs:
-TBA
-
+> coming soon
 
 –––––––––––––
 
