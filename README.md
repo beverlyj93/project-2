@@ -1,7 +1,7 @@
 Project II | Due: Thursday 04 April 2019
-# *Vacation Finder*
 
-## Description: *Vacation Finder* – users complete survey that generates vacation destination suggestions based on their answers (name coming soon)
+# *Vacation Finder*
+```Description: Users will complete a survey that generates vacation destination suggestions based on their answers. (name coming soon)```
 
 
 
