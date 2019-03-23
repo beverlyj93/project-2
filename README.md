@@ -1,9 +1,11 @@
 Project II | Due: Thursday 04 April 2019
 
 # *Vacation Finder*
-```Description: Users will complete a survey that generates vacation destination suggestions based on their answers. (name coming soon)```
+```
+Description: Users will complete a survey that generates vacation destination suggestions based on their answers. (name coming soon)
+```
 
-
+---
 
 | Team Member | Role |
 | ------ | :-----------: |
@@ -12,6 +14,7 @@ Project II | Due: Thursday 04 April 2019
 | Alex Curington | Front-End, Project Manager, Presentation |
 | Juan Delgado | Back-End / Front-End |
 
+---
 
 ## Tasks:
 - [ ] Sketch out UI of landing page and survey
@@ -49,15 +52,11 @@ Project II | Due: Thursday 04 April 2019
 + Transportation Method
 ```
 
-#### Survey Parameters:
-*coming soon*
+#### Survey Parameters: *coming soon*
 
-#### APIs:
-*coming soon*
+#### APIs: *coming soon*
 
-
-–––
-
+---
 
 ## Project Requirements:
 - [ ] Use a Node and Express Web Server
