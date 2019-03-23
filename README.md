@@ -1,4 +1,5 @@
-# Project II | Vacation Finder
+# Project II | *Vacation Finder* 
+*(actual name coming soon)*
 
 ## Description: *Vacation Finder* – users complete survey that generates vacation destination suggestions based on their answers
 
