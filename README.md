@@ -16,3 +16,5 @@ Requirements:
 - [ ] Have folder structure that meets MVC Paradigm
 - [ ] Meet good quality coding standards (indentation, scoping, naming)
 - [ ] Must not expose sensitive API key information on the server
+
+Due: Thursda 04 April 2019
