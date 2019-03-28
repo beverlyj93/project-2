@@ -1,0 +1,24 @@
+{
+  "name": "project-2",
+  "version": "1.0.0",
+  "description": "Project II | Due: Thursday 04 April 2019",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beverlyj93/project-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beverlyj93/project-2/issues"
+  },
+  "homepage": "https://github.com/beverlyj93/project-2#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  }
+}
