@@ -1,0 +1,42 @@
+body {
+    padding-top: 3.5rem;
+    color: #fc6c85;
+    background: #edc9af;
+}
+
+.navbar {
+    background: #FFF8DC;
+}
+
+
+.btn {
+    background: seashell;
+    color: steelblue;
+}
+
+#homeNav {
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: #00BFFF !important;
+    font-size: 24px;
+}
+
+a:hover {
+    background: steelblue;
+}
+
+.jumbotron {
+    background-color: rgba(135, 206, 235, 1);
+}
+
+.places {
+    margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
