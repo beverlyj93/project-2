@@ -9,6 +9,10 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
 app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '/views/home.html'));
+})
+
+app.get('/results', (req, res) => {
     res.sendFile(path.join(__dirname, '/views/results.html'));
 })
 
