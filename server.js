@@ -18,7 +18,7 @@ app.get('/results', (req, res) => {
 })
 
 app.get('/survey', (req, res) => {
-    res.send('This page is coming soon. Please check back later.');
+    res.sendFile(path.join(__dirname, '/views/survey.html'));
 })
 
 app.listen(port, () => {
