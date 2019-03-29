@@ -1,4 +1,5 @@
 var mysql = require('mysql');
+var helper = require('./helper');
 
 var connection = mysql.createConnection({
     host: 'localhost',

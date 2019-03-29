@@ -2,6 +2,7 @@ var express = require('express');
 var connection = require('./config/connection');
 var path = require('path');
 var app = express();
+var helper = require('./config/helper');
 var port = process.env.port || 3000;
 
 app.use(express.static('public'));
