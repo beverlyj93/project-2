@@ -1,42 +1,27 @@
-body {
-    padding-top: 3.5rem;
-    color: #fc6c85;
-    background: #edc9af;
+header {
+    background: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px 0px;
+    text-shadow: 1px 2px 20px lightskyblue;
 }
 
-.navbar {
-    background: #FFF8DC;
+.jumbotron-fluid {
+    text-align: center;
+    background: lightskyblue;
+    height: 100vh;
 }
 
-
-.btn {
-    background: seashell;
-    color: steelblue;
-}
-
-#homeNav {
+.jumbotron-header {
+    padding-top: 20px;
+    width: 60%;
     margin: 0 auto;
 }
 
-.nav-link {
-    color: #00BFFF !important;
-    font-size: 24px;
+#gif-arrow {
+    padding: 75px 150px;
 }
 
-a:hover {
-    background: steelblue;
-}
-
-.jumbotron {
-    background-color: rgba(135, 206, 235, 1);
-}
-
-.places {
-    margin-top: 50px;
-}
-
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-    }
+#img-vacation {
+    margin-top: 25px;
 }
