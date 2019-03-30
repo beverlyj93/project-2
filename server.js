@@ -20,6 +20,9 @@ app.get('/survey', (req, res) => {
     res.send('This page is coming soon. Please check back later.');
 })
 
+require("./routes/api-routes")(app);
+
+
 app.listen(port, () => {
     console.log(`Listening on port ${port}`);
 })

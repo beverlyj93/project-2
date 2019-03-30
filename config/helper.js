@@ -6,9 +6,13 @@ var helper = {
             cb(result);
         });
     },
-    selectAll: (table, cb) => {
-        connection.query(`SELECT * FROM ${table};`, result => {
-            cb(result);
+    selectAll: () => {
+        connection.query('SELECT * FROM  users,', function (err,data) {
+            if (!err) {
+                console.log(data)
+            } else {
+                throw err
+            }
         });
     },
     selectOne: (column, table, modifier, value) => {
