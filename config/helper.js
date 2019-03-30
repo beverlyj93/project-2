@@ -1,23 +1,32 @@
 var connection = require('./connection');
 
 var helper = {
-    query: (data, cb) => {
-        connection.query(data, result => {
+    query: function (queryString, cb) {
+        var queryString = "";
+        connection.query(queryString, function (err, result) {
+            if (err) throw err;
             cb(result);
         });
     },
-    selectAll: (table, cb) => {
-        connection.query(`SELECT * FROM ${table};`, result => {
-            cb(result);
+    selectAll: function (table, cb) {
+        var queryString = 'SELECT * FROM ??'
+        connection.query(queryString, [table], function (err,result) {
+            if (err) throw err; 
+                cb(result)
         });
     },
-    selectOne: (column, table, modifier, value, cb) => {
-        connection.query(`SELECT ${column} FROM ${table} WHERE ${modifier} = '${value}';`, result => {
-            cb(result);
+    selectOne: function (table, columnToSearch, columnValue, cb) {
+        var queryString = 'SELECT * FROM ?? WHERE ?? = ?'
+        connection.query(queryString, [table, columnToSearch, columnValue], function(err, result) {
+            if (err) throw err;
+            cb(result)
         });
     },
-    insertOne: (table, columns, values, cb) => {
-        connection.query(`INSERT INTO ${table} (${columns}) VALUES (${values});`, result => {
+    insertOne: function (table, columns, values, cb) {
+        var queryString = 'INSERT INTO ?? (??) VALUES (?)'
+
+        connection.query(queryString, [table, columns, values ], function (err,result) {
+            if (err) throw err;
             cb(result);
         });
     },
@@ -30,13 +39,18 @@ var helper = {
         }
         cb(results);
     },
-    deleteOne: (table, id, cb) => {
-        connection.query(`DELETE FROM ${table} WHERE \`id\` = ${id};`, result => {
+    deleteOne: function (table, columnValue, columnData, cb) {
+        var queryString = 'DELETE FROM ?? WHERE ?? = ?'
+        connection.query(queryString, [table, columnValue, columnData], function(err, result) {
+            if (err) throw err;
             cb(result);
         });
     },
-    deleteAll: (table, cb) => {
-        connection.query(`DELETE * FROM ${table};`, result => {
+    deleteAll: function (table, cb) {
+        var queryString = 'DELETE * FROM ??'
+
+        connection.query(queryString, [table], function (err, result) {
+            if (err) throw err;
             cb(result);
         });
     }
