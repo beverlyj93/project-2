@@ -30,15 +30,6 @@ var helper = {
             cb(result);
         });
     },
-    insertRepeat: (table, columns, values, iteration, cb) => {
-        let results = [];
-        for(let i = 0; i < iteration; i++) {
-            connection.query(`INSERT INTO ${table} (${columns}) VALUES (${values});`, result => {
-                results.push(result);
-            });
-        }
-        cb(results);
-    },
     deleteOne: function (table, columnValue, columnData, cb) {
         var queryString = 'DELETE FROM ?? WHERE ?? = ?'
         connection.query(queryString, [table, columnValue, columnData], function(err, result) {
