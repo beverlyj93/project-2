@@ -17,4 +17,10 @@ module.exports = function (app) {
             return res.json(data);
         } )
     })
+    app.get('/api/test', (req, res) => {
+        res.json('all dis data');
+    })
+    app.post('/api/test', (req, res) => {
+        console.log(req.body);
+    })
 };
