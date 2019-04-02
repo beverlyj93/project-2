@@ -20,6 +20,7 @@ app.get('/survey', (req, res) => {
 })
 
 require("./routes/api-routes")(app);
+require('./routes/html-routes')(app);
 
 
 app.listen(port, () => {
