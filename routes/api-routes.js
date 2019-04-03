@@ -22,5 +22,6 @@ module.exports = function (app) {
     })
     app.post('/api/test', (req, res) => {
         console.log(req.body);
+        res.json(req.body);
     })
 };

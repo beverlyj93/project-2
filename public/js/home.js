@@ -4,7 +4,8 @@ $('#uh').click(() => {
         age: 25
     }
 
-    $.post('/api/test', data, () => {
-        location.reload();
+    $.post('/api/test', data, result => {
+        console.log(`result: ${result}`);
+        $('body').html(result.name);
     })
 })
