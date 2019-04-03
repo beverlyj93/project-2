@@ -2230,6 +2230,7 @@ body {
   padding-top: 0px;
   padding-bottom: 0px;
   background-color: #fff5fa;
+  min-height: 50% !important;
 }
 .cid-rmxt25YRYR .mbr-section-text {
   color: #767676;

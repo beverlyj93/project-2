@@ -3,7 +3,7 @@
  * Copyright 2017 Mobirise
  */
 section {
-  background-color: rgba(100, 210, 185, .2); }
+  background-color: white; }
 
 section,
 .container,
@@ -39,6 +39,7 @@ h1, h2, h3, h4, h5, h6,
 
 b, strong {
   font-weight: bold; }
+
 
 blockquote {
   padding: 10px 0 10px 20px;
