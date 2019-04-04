@@ -1,3 +1,7 @@
+$(window).on('beforeunload', function(){
+    $(window).scrollTop(0);
+  });
+
 function ktof(kelvin) {
     let c = kelvin - 273;
     return Math.floor(c * (9/5) + 32);

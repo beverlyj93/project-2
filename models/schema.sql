@@ -1,5 +1,4 @@
-CREATE DATABASE IF NOT EXISTS `vf_db`;
-USE `vf_db`;
+USE `x3wgrqcvk6vwptyo`;
 CREATE TABLE IF NOT EXISTS `users` (
     `id` INTEGER PRIMARY KEY AUTO_INCREMENT,
     `email` VARCHAR(36),

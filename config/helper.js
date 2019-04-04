@@ -8,6 +8,13 @@ var helper = {
             cb(result);
         });
     },
+    getLocation: function(table, type, climate, cb) {
+        var queryString = "SELECT * FROM ?? WHERE `location_type` = ? AND `location_climate` = ?";
+        connection.query(queryString, [table, type, climate], function(err, result) {
+            if(err) throw err;
+            cb(result);
+        })
+    },
     selectAll: function (table, cb) {
         var queryString = 'SELECT * FROM ??'
         connection.query(queryString, [table], function (err,result) {
