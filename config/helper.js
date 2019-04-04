@@ -1,9 +1,9 @@
 var connection = require('./connection');
 
 var helper = {
-    query: function (queryString, cb) {
+    query: function (queryString, values, cb) {
         var queryString = "";
-        connection.query(queryString, function (err, result) {
+        connection.query(queryString, values, function (err, result) {
             if (err) throw err;
             cb(result);
         });

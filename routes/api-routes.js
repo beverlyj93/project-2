@@ -20,8 +20,17 @@ module.exports = function (app) {
     app.get('/api/test', (req, res) => {
         res.json('all dis data');
     })
-    app.post('/api/test', (req, res) => {
-        console.log(req.body);
-        res.json(req.body);
+    app.post('/api/getlocation', (req, res) => {
+        // helper.query('SELECT `location_name` FROM `locations` WHERE `location_type` = ? AND `location_climate` = ?', [req.body.locationType, req.body.locationClimate], result => {
+        //     res.json(result);
+        // })
+        return res.json({
+            location_city: 'Dallas',
+            location_state: 'Texas',
+            location_image: 'http://ontheworldmap.com/usa/united-states-map-max.jpg',
+            location_description: 'This is the worlds best country to live in, by far.',
+            location_type: 'Historic',
+            location_climate: 'Warm'
+        })
     })
 };
