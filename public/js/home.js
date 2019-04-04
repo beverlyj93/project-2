@@ -1,21 +1,3 @@
-$('#uh').click(() => {
-    let data = {
-        name: 'test',
-        age: 25
-    }
-
-    $.post('/api/test', data, result => {
-        console.log(`result: ${result}`);
-        $('body').html(result.name);
-    })
-})
-
-$('#btn-scroll-down').click(function() {
-    $('html, body').animate({
-        scrollTop: $('.question-section').offset().top - 65
-    }, 800);
-});
-
 function ktof(kelvin) {
     let c = kelvin - 273;
     return Math.floor(c * (9/5) + 32);
